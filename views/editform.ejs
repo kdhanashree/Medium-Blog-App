@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/style3.css">
+</head>
+<body>
+    <div class="edit">
+    <h3>Make the Desired Changes</h3>
+     <!-- over-rides post request -->
+    <form method="post" action="/blogs/<%=b.id%>?_method=PATCH">
+     
+       <h2>Title</h2>
+       <textarea style="margin-left:-35px;"rows="8" cols ="140" name="title"><%=b.title %></textarea>
+
+       <h2>Blog</h2>
+       <textarea rows="20" cols="100" name="content"><%=b.content%></textarea>
+
+       <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>

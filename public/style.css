@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(238, 233, 227);
+    margin-top:0.2rem;
+    margin-left:1rem ;
+}
+.i{
+    height: 12rem;
+    width:25rem;
+}
+.details{
+    width:50%;
+}
+.blog{
+    /* margin-left: 4rem; */
+    height:17rem;
+    display:flex;
+    flex-direction: row;
+}
+#head-content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1rem;
+}
